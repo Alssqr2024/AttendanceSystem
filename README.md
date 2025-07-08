@@ -13,19 +13,19 @@
 | الصورة | الوصف |
 |--------|-------|
 | ![Screenshot 2025-06-25 161019](assets/images/Screenshot%202025-06-25%20161019.png) | شاشة النظام الرئيسية أو لوحة التحكم |
-| ![Screenshot 2025-06-24 224051](assets/images/Screenshot%202025-06-24%20224051.png) | شاشة تسجيل الدخول |
-| ![Screenshot 2025-06-22 133542](assets/images/Screenshot%202025-06-22%20133542.png) | شاشة تقارير الحضور |
-| ![Screenshot 2025-06-22 133530](assets/images/Screenshot%202025-06-22%20133530.png) | شاشة السجلات أو الأحداث |
-| ![Screenshot 2025-06-22 133432](assets/images/Screenshot%202025-06-22%20133432.png) | شاشة إعدادات النظام |
-| ![Screenshot 2025-06-22 133420](assets/images/Screenshot%202025-06-22%20133420.png) | شاشة إضافة مستخدم جديد |
-| ![Screenshot 2025-06-22 133238](assets/images/Screenshot%202025-06-22%20133238.png) | شاشة إدارة الموظفين |
-| ![Screenshot 2025-06-22 133225](assets/images/Screenshot%202025-06-22%20133225.png) | شاشة الحضور اليدوي |
-| ![Screenshot 2025-06-22 133155](assets/images/Screenshot%202025-06-22%20133155.png) | شاشة البصمة أو التحقق البيومتري |
-| ![Screenshot 2025-06-22 133110](assets/images/Screenshot%202025-06-22%20133110.png) | شاشة التقارير المفصلة |
-| ![Screenshot 2025-06-22 133037](assets/images/Screenshot%202025-06-22%20133037.png) | شاشة الإحصائيات اليومية |
+| ![Screenshot 2025-06-24 224051](assets/images/Screenshot%202025-06-24%20224051.png) | شاشة لوحة التحكم |
+| ![Screenshot 2025-06-22 133542](assets/images/Screenshot%202025-06-22%20133542.png) | شاشة التحقق من البصمة |
+| ![Screenshot 2025-06-22 133530](assets/images/Screenshot%202025-06-22%20133530.png) | شاشة  تاكيد الهوية |
+| ![Screenshot 2025-06-22 133432](assets/images/Screenshot%202025-06-22%20133432.png) | شاشة تسجيل الدخول |
+| ![Screenshot 2025-06-22 133420](assets/images/Screenshot%202025-06-22%20133420.png) | شاشة الدخول صفحة التحضير |
+| ![Screenshot 2025-06-22 133238](assets/images/Screenshot%202025-06-22%20133238.png) | شاشة إدارة التقارير |
+| ![Screenshot 2025-06-22 133225](assets/images/Screenshot%202025-06-22%20133225.png) | شاشة اذارة التقارير |
+| ![Screenshot 2025-06-22 133155](assets/images/Screenshot%202025-06-22%20133155.png) | شاشة ادارة السجلات |
+| ![Screenshot 2025-06-22 133110](assets/images/Screenshot%202025-06-22%20133110.png) | شاشة ادارة الموظفين |
+| ![Screenshot 2025-06-22 133037](assets/images/Screenshot%202025-06-22%20133037.png) | شاشة ادارة المستخدمين |
 | ![Screenshot 2025-06-22 133020](assets/images/Screenshot%202025-06-22%20133020.png) | شاشة المستخدمين والصلاحيات |
 | ![Screenshot 2025-06-22 132925](assets/images/Screenshot%202025-06-22%20132925.png) | شاشة إعدادات متقدمة |
-| ![Screenshot 2025-06-22 132904](assets/images/Screenshot%202025-06-22%20132904.png) | شاشة النظام العامة |
+| ![Screenshot 2025-06-22 132904](assets/images/Screenshot%202025-06-22%20132904.png) | شاشة التحضير اليدوي |
 
 ---
 
@@ -53,16 +53,7 @@ AttendanceSystem/
 ├── assets/                  # الموارد (صور، شعارات، خطوط، رسوم متحركة)
 │   ├── logo.png             # شعار النظام
 │   ├── icon.png             # أيقونة التطبيق
-│   ├── fingerprint_animation.json # حركة البصمة
 │   └── fonts/               # خطوط عربية مدمجة
-│
-├── backups/                 # مجلد النسخ الاحتياطية لقاعدة البيانات
-│
-├── temp_photos/             # صور مؤقتة (مثلاً صور الموظفين)
-│   └── photo_ahmed_2177245913984.jpg
-│
-├── reports/                 # ملفات وتقارير إضافية
-│   └── switch.py            # كود مساعد للتقارير
 │
 └── ...
 ```
@@ -96,7 +87,7 @@ AttendanceSystem/
 > **ملاحظة:**
 > - يجب توفر قاعدة بيانات PostgreSQL مفعلة.
 > - تأكد من وجود ملفات الخطوط والصور في مجلد `assets`.
-> - بعض الميزات (مثل البصمة) تتطلب أجهزة متوافقة.
+> - بعض الميزات (مثل البصمة) تتطلب أجهزة متوافقة.ZKTeco K40
 
 ---
 
@@ -107,4 +98,5 @@ AttendanceSystem/
 ---
 
 ## شكر وتقدير
-تم تطوير هذا النظام لتسهيل إدارة الحضور والانصراف في المؤسسات والشركات، مع التركيز على سهولة الاستخدام ودعم اللغة العربية. 
+تم تطوير هذا النظام لتسهيل إدارة الحضور والانصراف في المؤسسات والشركات، مع التركيز على سهولة الاستخدام ودعم اللغة العربية.
+<h2>Ahmed Abdullah Nasser Aldhuraibi</h2>
